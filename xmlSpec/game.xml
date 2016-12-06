@@ -1,0 +1,128 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<screenTitle>Chunpeng's Pacman</screenTitle>
+<maxStringSize>50</maxStringSize>
+
+<WORLD_WIDTH>3000</WORLD_WIDTH>
+<WORLD_HEIGHT>480</WORLD_HEIGHT>
+
+<FPS_MAX>200</FPS_MAX>
+
+<frameCap>60</frameCap>
+<framesAreCapped>true</framesAreCapped>
+
+<frameMax>500</frameMax>
+<username>chunpes</username>
+
+<view>
+  <width>854</width>
+  <height>480</height>
+</view>
+
+<world>
+  <width>2000</width>
+  <height>960</height>
+</world>
+
+<back>
+  <file>images/bg.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>1</factor>
+  <transparency>false</transparency>
+</back>
+<mount>
+  <file>images/mount.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</mount>
+<top>
+  <file>images/top.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</top>
+<bot>
+  <file>images/bot.png</file>
+  <red>193</red>
+  <green>205</green>
+  <blue>205</blue>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</bot>
+
+<font name="font">
+  <file>font/dyslexic-bold.otf</file>
+  <size>16</size>
+  <red>0</red>
+  <green>0</green>
+  <blue>0</blue>
+  <unused>0</unused>
+</font>
+
+<player>
+  <file>images/total.png</file>
+  <startLoc x="300" y="240"/>
+  <frames>4</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>20</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <chunk>
+      <size>15</size>
+      <distance>200</distance>
+  </chunk>
+</player>
+
+<Boss>
+    <file>images/boss.png</file>
+    <startLoc x="2900" y="190"/>
+    <frames>1</frames>
+    <frameInterval>200</frameInterval>
+    <speedX>0</speedX>
+    <speedY>100</speedY>
+    <transparency>true</transparency>
+    <chunk>
+        <size>15</size>
+        <distance>200</distance>
+    </chunk>
+</Boss>
+
+
+<b>
+  <file>images/b.png</file>
+  <startLoc x="-300" y="-240"/>
+  <frames>1</frames>
+  <frameInterval>200</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+  <chunk>
+      <size>16</size>
+      <distance>200</distance>
+  </chunk>
+</b>
+
+
+
+<bullet>
+  <file>images/bullet.png</file>
+  <startLoc x="320" y="240"/>
+  <speedX>175</speedX>
+  <speedY>175</speedY>
+  <transparency>true</transparency>
+  <chunk>
+      <size>9</size>
+      <distance>200</distance>
+  </chunk>
+</bullet>
+
+</GameData>
